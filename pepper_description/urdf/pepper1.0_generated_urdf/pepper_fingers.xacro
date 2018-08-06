@@ -5,8 +5,8 @@
 <robot name="JulietteY20MP" xmlns:xacro="http://www.ros.org/wiki/xacro">
 	<link name="RFinger41_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger41_link/>
 	</link>
@@ -19,8 +19,8 @@
 	</joint>
 	<link name="LFinger42_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger42_link/>
 	</link>
@@ -33,8 +33,8 @@
 	</joint>
 	<link name="RFinger12_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger12_link/>
 	</link>
@@ -47,8 +47,8 @@
 	</joint>
 	<link name="LFinger33_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger33_link/>
 	</link>
@@ -61,8 +61,8 @@
 	</joint>
 	<link name="RFinger31_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger31_link/>
 	</link>
@@ -75,8 +75,8 @@
 	</joint>
 	<link name="LFinger21_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger21_link/>
 	</link>
@@ -89,8 +89,8 @@
 	</joint>
 	<link name="RFinger32_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger32_link/>
 	</link>
@@ -103,8 +103,8 @@
 	</joint>
 	<link name="LFinger13_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger13_link/>
 	</link>
@@ -117,8 +117,8 @@
 	</joint>
 	<link name="LFinger32_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger32_link/>
 	</link>
@@ -131,8 +131,8 @@
 	</joint>
 	<link name="LFinger11_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger11_link/>
 	</link>
@@ -145,8 +145,8 @@
 	</joint>
 	<link name="RFinger22_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger22_link/>
 	</link>
@@ -159,8 +159,8 @@
 	</joint>
 	<link name="RFinger13_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger13_link/>
 	</link>
@@ -173,8 +173,8 @@
 	</joint>
 	<link name="LFinger22_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger22_link/>
 	</link>
@@ -187,8 +187,8 @@
 	</joint>
 	<link name="RFinger21_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger21_link/>
 	</link>
@@ -201,8 +201,8 @@
 	</joint>
 	<link name="LFinger41_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger41_link/>
 	</link>
@@ -215,8 +215,8 @@
 	</joint>
 	<link name="LFinger12_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger12_link/>
 	</link>
@@ -229,8 +229,8 @@
 	</joint>
 	<link name="RFinger23_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger23_link/>
 	</link>
@@ -243,8 +243,8 @@
 	</joint>
 	<link name="RFinger11_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger11_link/>
 	</link>
@@ -257,8 +257,8 @@
 	</joint>
 	<link name="LFinger23_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger23_link/>
 	</link>
@@ -271,8 +271,8 @@
 	</joint>
 	<link name="LFinger43_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger43_link/>
 	</link>
@@ -285,8 +285,8 @@
 	</joint>
 	<link name="RFinger43_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger43_link/>
 	</link>
@@ -299,8 +299,8 @@
 	</joint>
 	<link name="RFinger42_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger42_link/>
 	</link>
@@ -313,8 +313,8 @@
 	</joint>
 	<link name="LFinger31_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LFinger31_link/>
 	</link>
@@ -327,8 +327,8 @@
 	</joint>
 	<link name="RFinger33_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RFinger33_link/>
 	</link>
@@ -341,8 +341,8 @@
 	</joint>
 	<link name="LThumb1_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LThumb1_link/>
 	</link>
@@ -355,8 +355,8 @@
 	</joint>
 	<link name="RThumb2_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RThumb2_link/>
 	</link>
@@ -369,8 +369,8 @@
 	</joint>
 	<link name="RThumb1_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_RThumb1_link/>
 	</link>
@@ -383,8 +383,8 @@
 	</joint>
 	<link name="LThumb2_link">
 		<inertial>
-			<mass value="0.001" />
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<mass value="2e-06"/>
+			<inertia ixx="1.1e-09" ixy="0" ixz="0" iyy="1.1e-09" iyz="0" izz="1.1e-09"/>
 		</inertial>
 		<xacro:insert_visu_LThumb2_link/>
 	</link>
