@@ -734,7 +734,7 @@
     <wheelDiameter>0.140</wheelDiameter>
     <torque>36.9</torque>
     <commandTopic>cmd_vel</commandTopic>
-    <odometryTopic>odom_diffdrive</odometryTopic>
+    <odometryTopic>odom</odometryTopic>
     <odometryFrame>odom</odometryFrame>
     <odometrySource>world</odometrySource>
     <publishTf>1</publishTf>
