@@ -7,7 +7,7 @@
 		<parent link="torso"/>
 		<child link="LShoulder"/>
 		<origin rpy="0 0 0" xyz="-0.057 0.14974 0.08682"/>
-		<axis xyz="0 1.0 0"/>
+		<axis xyz="0 1.0 0" initial_position="1.57" />
 		<limit effort="5.428" lower="-2.08567" upper="2.08567" velocity="7.33998"/>
 	</joint>
 	<link name="LShoulder">
@@ -95,7 +95,7 @@
 		<parent link="torso"/>
 		<child link="RShoulder"/>
 		<origin rpy="0 0 0" xyz="-0.057 -0.14974 0.08682"/>
-		<axis xyz="0 1.0 0"/>
+		<axis xyz="0 1.0 0" initial_position="1.57" />
 		<limit effort="5.428" lower="-2.08567" upper="2.08567" velocity="7.33998"/>
 	</joint>
 	<link name="RShoulder">
