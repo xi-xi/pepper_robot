@@ -45,7 +45,7 @@
 		<parent link="Tibia"/>
 		<child link="WheelFR_link"/>
 		<origin rpy="0 0 -1.07517" xyz="0.09 -0.155 -0.264"/>
-		<axis xyz="1.0 0 0"/>
+		<axis xyz="-1.0 0 0"/>
 		<limit effort="3.25" lower="0" upper="0" velocity="6.28319"/>
 	</joint>
 </robot>
